@@ -172,3 +172,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+*.json
+*.txt
+
+# 项目特定文件
+bookmarks*.json
+failed_urls*.json
+failed_urls.txt
+.env
+
+# 不忽略的文件
+!requirements.txt

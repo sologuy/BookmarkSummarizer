@@ -1,0 +1,10 @@
+requests==2.31.0
+beautifulsoup4==4.12.2
+chardet==5.2.0
+urllib3==2.0.7
+openai==1.3.0  # 用于调用大模型API
+tqdm==4.66.1   # 进度条显示
+python-dotenv==1.0.0  # 环境变量管理
+selenium==4.14.0  # 处理动态网页内容
+webdriver-manager==4.0.1  # 自动管理WebDriver
+lxml==4.9.3  # 用于HTML解析

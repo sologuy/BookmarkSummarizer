@@ -1,0 +1,19 @@
+# 自动检测文本文件并执行LF标准化
+* text=auto
+
+# Python源文件
+*.py text diff=python
+
+# 文档
+*.md text
+*.txt text
+LICENSE text
+
+# 不应该被修改的二进制文件
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary 
